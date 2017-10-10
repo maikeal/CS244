@@ -1,12 +1,15 @@
-#include "sample.h"
-using namespace exercises;
+#include "squares.h"
+using namespace shapes;
+
 
 int main()
 {
-  Exercise ex; //Exercise object
-  ex.x = 3; // x fieldf of object
-  ex.y = "Hello"; // y field of object
-  ex.print(); //print() method of object ex
-  std:: cout <<"\n";
-return 0;
+  Square1 sq1;
+  Square2 sq2;
+  //overloaded
+  Square1 sq3(5);
+  Square2 sq4(4);
+
+
+  return 0;
 }
